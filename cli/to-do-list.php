@@ -17,18 +17,19 @@ function addTask($inputTasks){
 
 //Do While Loop Syntax
   do 
-  echo "uzdevumu parvaldnieks \n";
-  echo "apskatit  uzdevumu => 1\n";
-  echo "ievadit jaunu uzdevumu => 2 \n";
+  {
+  echo "uzdevumu parvaldnieks1 \n";
+  echo "apskatit  uzdevumu => 2\n";
+  echo "ievadit jaunu uzdevumu => 3 \n";
   $choice = readline("izvelies darbibu: ");
 
 
-    switch ($xhoice) {
+    switch ($choice) {
     case '1':
-        showTask($tasklist)
+        showTask($tasklist);
         break;
     case '2':
-        addTask
+        $addTask;
         break;
     case '3':
         echo "to be implemented! ";
@@ -38,8 +39,8 @@ function addTask($inputTasks){
     }
 
 
-  { $continue = readline("Vai velaties turpinat? ")
+  { $continue = readline("Vai velaties turpinat? ");
   // code to be executed
-  } while ($continue i= "N");
-
+  } while ($continue $i = "N");
+  }
   //2.uzd izveidot switch case konstrukciju lai apstradatu lietotaja ievades
